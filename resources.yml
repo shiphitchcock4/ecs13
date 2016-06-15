@@ -23,3 +23,11 @@ resources:
       name: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
       tag: latest
+      
+  - name: resofo4
+    type: image
+    integration: ship4-docker
+    source:
+      name: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+      tag: latest
