@@ -1,12 +1,12 @@
 jobs:
-  - name: foo11
+  - name: goojob1
     type: manifest
     steps:
-      - GET: resofoo1foo
+      - GET: goo1
 
-  - name: fooecs12
+  - name: goojob2
     type: ecsDeploy
     steps:
-      - GET: foo11
-      - GET: resofoo2foo
+      - GET: goojob1
+      - GET: goo2
  
