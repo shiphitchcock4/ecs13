@@ -1,5 +1,5 @@
 resources:
-  - name: resofoo1
+  - name: resofoo1foo
     type: image
     integration: ship4-docker
     source:
@@ -7,10 +7,9 @@ resources:
       isPull: false
       tag: latest
 
-  - name: resofoo2
-    type: image
-    integration: ship4-docker
+  - name: resofoo2foo
+    type: ecsCluster
+    integration: ship-awsnew
     source:
-      name: "shiphitchcock4/hitchcock4_sample_nodenew" 
-      isPull: false
-      tag: latest
+      name : "default" #name of the cluster we are deploying
+      region: "us-west-2
