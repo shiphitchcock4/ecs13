@@ -3,9 +3,8 @@ jobs:
     type: manifest
     steps:
       - GET: resofoo1foo
-      
 
-  - name: fooecs11
+  - name: fooecs12
     type: ecsDeploy
     steps:
       - GET: foo11
