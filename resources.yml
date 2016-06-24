@@ -13,3 +13,10 @@ resources:
     source:
       name : "default" #name of the cluster we are deploying
       region: "us-west-2"
+      
+  - name: project1-test
+    type: gitRepo
+    integration: "shiphitchcock4-github"
+    source:
+      name: "shiphitchcock4/sample_pipe" #you should've access to this project (even if it's public)
+      branch: master
